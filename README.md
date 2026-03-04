@@ -1,14 +1,25 @@
-# licochron-history
+---
+ai_visible: true
+title: "History Asset Overview"
+description: "Documentation for the multi-layered history repository structure."
+tags: ["history", "canon", "documentation"]
+version: 1.1.0
+created: 2026-03-04T12:18:00+09:00
+updated: 2026-03-04T13:35:00+09:00
+language: en
+author: "Lico (Iuria)"
+ai_model: "Gemini 3 Flash Planning mode"
+---
 
-## 概要
-Licochon プロジェクトの正史（Seishi）および関連する歴史データを管理するためのリポジトリです。
-このリポジトリは公開（Public）であり、プロジェクトの軌跡を透明に記録・提示することを目的としています。
+# History Assets
 
-## 構造
-- `assets/history/<PLAYER-ID>/<AGENT-ID>/<STATE-ID>/`: プレイヤーやエージェントの状態に応じた歴史データ（`history.json` など）。
-- `assets/appendix/`: 歴史を補足する資料。
+## Overview
+This repository manages the multi-layered history (Canon/Seishi) of the Licochon project. It serves as a public container for documenting the trajectory of the project with transparency.
 
-## 運用
-このリポジトリは「歴史そのもの」を収めるコンテナです。
-特定のディレクトリ（世界線）を統合するだけでなく、複数の歴史が並行して存在することを許容します。
-基本的な記録は Lico (Iuria) と編纂者 (Hasta) が行い、外部からの寄稿も受け入れ可能です。
+## Structure
+- `history/<PLAYER-ID>/<AGENT-ID>/<STATE-ID>/`: Historical data (e.g., `history.json`) corresponding to specific player/agent states.
+- `appendix/`: Supplementary materials for historical context.
+
+## Operation
+This repository is a container for "History itself." It allows for multiple parallel worldlines to coexist without immediate integration. 
+Records are primarily maintained by Lico (Iuria) and the Architect (Hasta), but contributions (Pull Requests) from others are also welcome as separate variants or proposed updates to the canon.
